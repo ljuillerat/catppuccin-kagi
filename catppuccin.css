@@ -166,12 +166,12 @@
     --site_info_bg: var(--surface0);
     --site_info_bottom_bg: var(--mantle);
     --btn-group-bg: var(--input-bg);
-    --result-item-title-border: var(--primary-300);
+    --result-item-title-border: var(--flamingo);
     --result-item-title-border_hover: var(--mauve);
     --result-rank-icon-stroke_promoted: var(--app-bg);
     --result-item-highlight: var(--sky);
     --search-result-content-text: var(--primary-600);
-    --search-result-url-link: var(--yellow);
+    --search-result-url-link: var(--green);
     --search-result-title: var(--text);
     --search-result-date-bg: var(--surface1);
     --search-result-date-new-bg: var(--surface2);

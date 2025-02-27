@@ -281,11 +281,6 @@
     --crust: var(--crust-dark);
     --color-scheme: dark;
   }
-
-  /* Fix color for assistant LLMs in auto dark mode */
-  .promptOptionsSelector .custom-assistants li.option, .promptOptionsSelector .default-assistants li.option {
-    color: var(--text);
-  }
 }
 
 .codehilite {

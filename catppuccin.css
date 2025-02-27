@@ -253,32 +253,38 @@
 
 @media (prefers-color-scheme: dark) {
   .theme_moon_dark_conditional {
-  --rosewater: var(--rosewater-dark);
-  --flamingo: var(--flamingo-dark);
-  --pink: var(--pink-dark);
-  --mauve: var(--mauve-dark);
-  --red: var(--red-dark);
-  --maroon: var(--maroon-dark);
-  --peach: var(--peach-dark);
-  --yellow: var(--yellow-dark);
-  --green: var(--green-dark);
-  --teal: var(--teal-dark);
-  --sky: var(--sky-dark);
-  --sapphire: var(--sapphire-dark);
-  --blue: var(--blue-dark);
-  --lavender: var(--lavender-dark);
-  --text: var(--text-dark);
-  --subtext1: var(--subtext1-dark);
-  --subtext0: var(--subtext0-dark);
-  --overlay2: var(--overlay2-dark);
-  --overlay1: var(--overlay1-dark);
-  --overlay0: var(--overlay0-dark);
-  --surface2: var(--surface2-dark);
-  --surface1: var(--surface1-dark);
-  --surface0: var(--surface0-dark);
-  --base: var(--base-dark);
-  --mantle: var(--mantle-dark);
-  --crust: var(--crust-dark);
+    --rosewater: var(--rosewater-dark);
+    --flamingo: var(--flamingo-dark);
+    --pink: var(--pink-dark);
+    --mauve: var(--mauve-dark);
+    --red: var(--red-dark);
+    --maroon: var(--maroon-dark);
+    --peach: var(--peach-dark);
+    --yellow: var(--yellow-dark);
+    --green: var(--green-dark);
+    --teal: var(--teal-dark);
+    --sky: var(--sky-dark);
+    --sapphire: var(--sapphire-dark);
+    --blue: var(--blue-dark);
+    --lavender: var(--lavender-dark);
+    --text: var(--text-dark);
+    --subtext1: var(--subtext1-dark);
+    --subtext0: var(--subtext0-dark);
+    --overlay2: var(--overlay2-dark);
+    --overlay1: var(--overlay1-dark);
+    --overlay0: var(--overlay0-dark);
+    --surface2: var(--surface2-dark);
+    --surface1: var(--surface1-dark);
+    --surface0: var(--surface0-dark);
+    --base: var(--base-dark);
+    --mantle: var(--mantle-dark);
+    --crust: var(--crust-dark);
+    --color-scheme: dark;
+  }
+
+  /* Fix color for assistant LLMs in auto dark mode */
+  .promptOptionsSelector .custom-assistants li.option, .promptOptionsSelector .default-assistants li.option {
+    color: var(--text);
   }
 }
 

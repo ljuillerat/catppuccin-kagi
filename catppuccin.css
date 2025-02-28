@@ -57,6 +57,8 @@
   --crust-light: #dce0e8;
 
   /* App variables that use theme colors */
+  --search-result-title-hover: var(--teal);
+  --search-result-gap: 25px;
   --app-bg: var(--base);
   --color-light-blue: var(--surface0);
   --color-kids-dark_blue: var(--surface1);
@@ -116,7 +118,7 @@
   --color-link: var(--text);
   --primary-hover: var(--mauve);
   --primary-hover-hover: var(--pink);
-  --primary-visited: var(--lavender);
+  --primary-visited: var(--blue);
   --input-bg: var(--surface1);
   --resultsummary-highlight: var(--lavender);
   --resultsummary-highlight_text: var(--secondary);
@@ -146,8 +148,8 @@
   --result-rank-icon-stroke_promoted: var(--app-bg);
   --result-item-highlight: var(--sky);
   --search-result-content-text: var(--primary-600);
-  --search-result-url-link: var(--peach);
-  --search-result-title: var(--text);
+  --search-result-url-link: var(--green);
+  --search-result-title: var(--maroon);
   --search-result-date-bg: var(--surface1);
   --search-result-date-new-bg: var(--surface2);
   --search-result-date-new: var(--subtext0);
@@ -340,4 +342,15 @@
   --ch-vi: var(--peach);
   --ch-vm: var(--peach);
   --ch-il: var(--blue);
+}
+
+/* Remove bottom border from links */
+.__sri_title_link._0_sri_title_link._0_URL {
+  border-bottom: none;
+}
+
+/* Remove underline with nested links */
+.__srgi-title a,
+.__srgi-title a:hover {
+  border-bottom: none; var(--result-item-title-border);
 }

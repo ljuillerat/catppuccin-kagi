@@ -57,7 +57,7 @@
   --crust-light: #dce0e8;
 
   /* App variables that use theme colors */
-  --search-result-title-hover: var(--teal);
+  --search-result-title-hover: var(--sky);
   --search-result-gap: 25px;
   --app-bg: var(--base);
   --color-light-blue: var(--surface0);
@@ -118,7 +118,7 @@
   --color-link: var(--text);
   --primary-hover: var(--mauve);
   --primary-hover-hover: var(--pink);
-  --primary-visited: var(--blue);
+  --primary-visited: var(--maroon);
   --input-bg: var(--surface1);
   --resultsummary-highlight: var(--lavender);
   --resultsummary-highlight_text: var(--secondary);
@@ -149,7 +149,7 @@
   --result-item-highlight: var(--sky);
   --search-result-content-text: var(--primary-600);
   --search-result-url-link: var(--green);
-  --search-result-title: var(--maroon);
+  --search-result-title: var(--blue);
   --search-result-date-bg: var(--surface1);
   --search-result-date-new-bg: var(--surface2);
   --search-result-date-new: var(--subtext0);

@@ -57,7 +57,7 @@
   --crust-light: #dce0e8;
 
   /* App variables that use theme colors */
-  --search-result-title-hover: var(--sky);
+  --search-result-title-hover: color-mix(in srgb, var(--blue) 60%, white 40%);
   --search-result-gap: 25px;
   --app-bg: var(--base);
   --color-light-blue: var(--surface0);
@@ -118,7 +118,7 @@
   --color-link: var(--text);
   --primary-hover: var(--mauve);
   --primary-hover-hover: var(--pink);
-  --primary-visited: var(--maroon);
+  --primary-visited: var(--red);
   --input-bg: var(--surface1);
   --resultsummary-highlight: var(--lavender);
   --resultsummary-highlight_text: var(--secondary);
@@ -352,5 +352,28 @@
 /* Remove underline with nested links */
 .__srgi-title a,
 .__srgi-title a:hover {
-  border-bottom: none; var(--result-item-title-border);
+  border-bottom: none;
+}
+
+/* Remove underline hover for interesting finds */
+.widget-simple .widgetItemTitle .__title-text:hover {
+  text-decoration: none;
+}
+
+/* Define standard color for secondary result */
+.__srgi-title a {
+  color: var(--blue);
+}
+
+/* Define hover color for secondary result */
+/* slightly lighter than blue which is the usual color */
+.__srgi-title a:hover {
+  color: color-mix(in srgb, var(--blue) 60%, white 40%);
+}
+
+/* Define hover color for visited secondary result */
+/* slightly lighter than red which is the usual color */
+.__srgi-title a:hover:visited,
+.__sri-title-box a:hover:visited {
+  color: color-mix(in srgb, var(--red) 60%, white 40%);
 }

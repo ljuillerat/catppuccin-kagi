@@ -357,7 +357,7 @@
 
 /* Remove underline hover for interesting finds */
 .widget-simple .widgetItemTitle .__title-text:hover {
-  text-decoration: none;
+  text-decoration: none; xvar(--result-item-title-border);
 }
 
 /* Define standard color for secondary result */
@@ -376,4 +376,12 @@
 .__srgi-title a:hover:visited,
 .__sri-title-box a:hover:visited {
   color: color-mix(in srgb, var(--red) 60%, white 40%);
+}
+
+/* Remove underline from links in Wikipedia module */
+.wikipediaResult a,
+.wikipediaResult a:hover,
+.wikipediaResult .wiki-title a,
+.wikipediaResult .wiki-title a:hover {
+  border-bottom: none; var(--result-item-title-border);
 }

@@ -348,6 +348,10 @@
   border-bottom: none;
 }
 
+.widget-simple .widgetItemTitle .__title-text:hover {
+  text-decoration: none;
+}
+
 /* Remove underline with nested links */
 .__srgi-title a,
 .__srgi-title a:hover {

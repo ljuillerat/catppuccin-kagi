@@ -58,7 +58,6 @@
 
   /* App variables that use theme colors */
   --search-result-title-hover: color-mix(in srgb, var(--blue) 60%, white 40%);
-  --search-result-gap: 25px;
   --app-bg: var(--base);
   --color-light-blue: var(--surface0);
   --color-kids-dark_blue: var(--surface1);
@@ -355,11 +354,6 @@
   border-bottom: none;
 }
 
-/* Remove underline hover for interesting finds */
-.widget-simple .widgetItemTitle .__title-text:hover {
-  text-decoration: none; xvar(--result-item-title-border);
-}
-
 /* Define standard color for secondary result */
 .__srgi-title a {
   color: var(--blue);
@@ -383,5 +377,24 @@
 .wikipediaResult a:hover,
 .wikipediaResult .wiki-title a,
 .wikipediaResult .wiki-title a:hover {
-  border-bottom: none; var(--result-item-title-border);
+  border-bottom: none; 
+}
+
+/* Remove gaps between sections on IOS */
+.search-result, .sri-group {
+  border-bottom: none;
+}
+
+.inline-content+.search-result, .inline-content+.sri-group {
+  border-top: none;
+}
+
+/* Remove underline from interesting finds on IOS */
+.list-widget .widgetContent .widgetItemTitle {
+  border-bottom: none;
+}
+
+/* Remove widget margin bottom */
+.widgetContent {
+  margin-bottom: none;
 }

@@ -398,7 +398,25 @@
   border-bottom: none;
 }
 
+.widget-simple .widgetItemTitle .__title-text,
+._ext_t {
+  color: var(--text);
+  font-size: 1rem;
+}
+
 /* Remove widget margin bottom */
 .widgetContent {
-  margin-bottom: none;
+  margin-bottom: 0;
+}
+
+#quickPeekResults,
+#interesting_finds,
+#listicles,
+#web_archive {
+  background-color: var(--surface1) ;
+  border-radius: 10px;
+  display: inline-block;
+  padding: 0 10px;
+  width: 100%;
+  margin-bottom: 10px;
 }

@@ -31,11 +31,11 @@
 
 Want to put some Catppuccin style to your Doggo ?
 
-<center>
-  <img src="./wallpapers/catppuccin_kagi_mocha.png" alt="Mocha" width="200"/> &nbsp;&nbsp;
-  <img src="./wallpapers/catppuccin_kagi_macchiato.png" alt="Macchiato" width="200"/> &nbsp;&nbsp;
-  <img src="./wallpapers/catppuccin_kagi_latte.png" alt="Latte" width="200"/>
-</center>
+<p align="center">
+  <img src="./wallpapers/catppuccin_kagi_mocha.png" alt="Mocha" width="250"/> &nbsp;
+  <img src="./wallpapers/catppuccin_kagi_macchiato.png" alt="Macchiato" width="250"/> &nbsp;
+  <img src="./wallpapers/catppuccin_kagi_latte.png" alt="Latte" width="250"/>
+</p>
 
 ### Download
 

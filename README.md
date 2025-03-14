@@ -9,6 +9,8 @@
     <br />
     <a href="#installation">CSS Installation</a>
     ·
+    <a href="#download">Wallpapers Download</a>
+    ·
     <a href="#support">Support</a>
   </p>
 </p>
@@ -28,25 +30,16 @@
 ## Wallpapers
 
 Want to put some Catppuccin style to your Doggo ?
-<p align="center">
-  <span style="display: inline-block; text-align: center; margin: 0 10px;">
-    <img src="./wallpapers/catppuccin_kagi_mocha.png" alt="Mocha wallpaper" width="200"/>
-    <br>
-    Mocha
-  </span>
-  <span style="display: inline-block; text-align: center; margin: 0 10px;">
-    <img src="./wallpapers/catppuccin_kagi_macchiato.png" alt="Macchiato wallpaper" width="200"/>
-    <br>
-    Macchiato
-  </span>
-  <span style="display: inline-block; text-align: center; margin: 0 10px;">
-    <img src="./wallpapers/catppuccin_kagi_latte.png" alt="Latte wallpaper" width="200"/>
-    <br>
-    Latte
-  </span>
-</p>
 
-### Installation
+<table align="center">
+  <tr>
+    <td align="center"><img src="./wallpapers/catppuccin_kagi_mocha.png" alt="Mocha wallpaper" width="200"/><br>Mocha</td>
+    <td align="center"><img src="./wallpapers/catppuccin_kagi_macchiato.png" alt="Macchiato wallpaper" width="200"/><br>Macchiato</td>
+    <td align="center"><img src="./wallpapers/catppuccin_kagi_latte.png" alt="Latte wallpaper" width="200"/><br>Latte</td>
+  </tr>
+</table>
+
+### Download
 
 Simply download files from wallpaper folder
 

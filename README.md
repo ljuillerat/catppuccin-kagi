@@ -31,16 +31,16 @@
 
 Want to put some Catppuccin style to your Doggo ?
 
-<div style="display: flex; justify-content: center; gap: 20px; margin: 0 auto;">
-  <div style="text-align: center;">
+<div style="display: grid; grid-template-columns: repeat(3, 1fr); text-align: center; gap: 20px; max-width: 800px; margin: 0 auto;">
+  <div>
     <img src="./wallpapers/catppuccin_kagi_mocha.png" alt="Mocha wallpaper" width="200"/>
     <p>Mocha</p>
   </div>
-  <div style="text-align: center;">
+  <div>
     <img src="./wallpapers/catppuccin_kagi_macchiato.png" alt="Macchiato wallpaper" width="200"/>
     <p>Macchiato</p>
   </div>
-  <div style="text-align: center;">
+  <div>
     <img src="./wallpapers/catppuccin_kagi_latte.png" alt="Latte wallpaper" width="200"/>
     <p>Latte</p>
   </div>

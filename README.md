@@ -17,6 +17,13 @@
 
 ## CSS style
 
+CSS based on Catppuccin Mocha and Latte colors that fits your system and Kagi preferences:
+
+<p align="center">
+  <img src="./assets/css_light.png" alt="Latte" width="250"/> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+  <img src="./assets/css_dark.png" alt="Macchiato" width="250"/> 
+</p>
+
 ### Installation
 
 1. Download the .css file
